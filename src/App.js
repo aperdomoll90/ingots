@@ -11,6 +11,7 @@ import Logo from './Components/Navigation'
 // >>>>>>>>>>>>>> ROUTES IMPORTS <<<<<<<<<<<<<<<<<<<<<<<
 import RouteWrapper from './Components/RouteWrapper'
 import SvgPathOnScroll from './Archives/SvgPathOnScroll'
+import Landing from './Archives/Landing'
 
 function App() {
   return (
@@ -18,9 +19,8 @@ function App() {
       <Router>
         <Logo/>
         <Routes>
-          <Route path='/' element={<RouteWrapper children={<SvgPathOnScroll/>}/>} />
-          {/* <Route path='/3d' component={Featured3DCSSPage} />
-          <Route path='/creatures' component={FeaturedCreaturesPage} /> */}
+          <Route path='/fishing' element={<RouteWrapper children={<SvgPathOnScroll/>}/>} />
+          <Route path='/' element={<RouteWrapper children={<Landing/>}/>} />
         </Routes>
       </Router>
     </div>

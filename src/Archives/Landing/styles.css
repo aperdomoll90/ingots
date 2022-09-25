@@ -1,0 +1,45 @@
+#landing-wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.landing-menu {
+  width: 90vw;
+  height: 50vh;
+  position: absolute;
+  bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.landing-card {
+    height: 15rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.landing-card img {
+    height: 70%;
+    width: auto;   
+}
+.landing-card a {
+  font-size: 1.2rem; 
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-transform:uppercase; 
+  text-decoration: none;
+  transition: 0.8s;
+}
+.landing-card a:hover {
+    font-weight: 700;
+  }
