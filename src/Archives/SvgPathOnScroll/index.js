@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import './styles.css'
 
+import Logo from '../../Components/Navigation'
 import OceanHero from './oceanComponents/OceanHero'
 import OceanAbout from './oceanComponents/OceanAbout'
 import OceanExpertise from './oceanComponents/OceanExpertise'
@@ -91,6 +92,8 @@ function SvgPathOnScroll() {
 
   return (
     <section id='SvgPathOnScrollWrapper'>
+      <Logo color="--wisteria"/>
+
       <div className='lineContainer'>
         <svg viewBox='0 0 445 3887' fill='none' preserveAspectRatio='xMidYMax meet'>
           <path

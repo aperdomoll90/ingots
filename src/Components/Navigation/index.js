@@ -1,10 +1,10 @@
 import './styles.css'
 
-function CircularNav() {
+function CircularNav({color}) {
   return (
     <div className='NavContainer'>
-      <div className='mainLogo'>
-        <span>css</span>ingots
+      <div className='mainLogo' style={{color: `var(${color})`}} >
+        <span style={{ outlineColor: `var(${color})`}} >css</span>ingots
       </div>
     </div>
   )

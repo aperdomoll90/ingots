@@ -1,5 +1,6 @@
 #oceanHero {
   min-height: 100vh !important;
+  height: 100vh !important;
   background: url('../../oceanMedia/boatDonnutPicBack.png');
   background-size: cover;
   position: relative;

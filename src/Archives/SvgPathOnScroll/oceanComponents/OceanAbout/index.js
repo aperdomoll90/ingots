@@ -2,7 +2,7 @@ import './styles.css'
 import darkWaves from '../../oceanMedia/darkWaves.svg'
 import lightWaves from '../../oceanMedia/lightWaves.svg'
 
-const innerWave = 'https://firebasestorage.googleapis.com/v0/b/cssforge.appspot.com/o/innerWaveClipped.mp4?alt=media&token=234cc1df-e5c2-4f33-8c92-8b8778823f93'
+const innerWave = require('../../oceanMedia/innerWaveClipped.mp4')
 
 function OceanAbout() {
   return (

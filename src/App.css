@@ -6,7 +6,7 @@
 }
 
 :root {
-
+  --mainBackgroundColor: #151515;
   --backgroundColor:#000013;
   --logoColor: #0a135f;
   --midnightBlue: #0a135f;
@@ -16,7 +16,7 @@
   --inchworm: #CAFF8A;
 
   
-  --white: rgb(216, 212, 212);
+  --white: rgb(255, 255, 255);
   --seaWhiteTransp: rgba(255, 255, 255, 0.774);
 
   --black: #000;
@@ -76,7 +76,7 @@
   justify-content: center;
   align-items: center;
   padding: 0;
-  background: var(--wisteria);
+  background: var(--white);
   font-family: sans-serif;
   /* background: linear-gradient(to bottom, rgb(168, 100, 181) 45%, transparent); */
 }

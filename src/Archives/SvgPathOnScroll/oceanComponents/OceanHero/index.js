@@ -1,5 +1,5 @@
 import './styles.css'
-const videoBackground = 'https://firebasestorage.googleapis.com/v0/b/cssforge.appspot.com/o/boatDonutClipped.mp4?alt=media&token=2e3442fc-4411-4a7e-b57f-a956e4c66cf7'
+const videoBackground = require('../../oceanMedia/boatDonutClipped.mp4')
 
 
 

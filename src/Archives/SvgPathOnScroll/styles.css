@@ -20,7 +20,7 @@
 }
 
 #SvgPathOnScrollWrapper section {
-  height: 120vh;
+  height: 100vh;
   position: relative;
   display: flex;
   align-items: center;
@@ -85,7 +85,7 @@
   height: 79.5%;
   position: absolute;
   top: 56.9vh;
-  left: -10%;
+  left: -3%;
   text-align: center;
   overflow: hidden;
   z-index: 12;
