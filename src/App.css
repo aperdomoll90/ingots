@@ -5,26 +5,18 @@
   box-sizing: border-box;
 }
 
-.App {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  background: linear-gradient(to bottom, rgb(168, 100, 181) 45%, transparent);
-}
-
-
 :root {
 
   --backgroundColor:#000013;
-  --logoColor: #887850;
+  --logoColor: #0a135f;
+  --midnightBlue: #0a135f;
+  --columbiaBlue: #C7E8F3;
+  --wisteria: #BF9ACA;
+  --darkGreen: #002A22;
+  --inchworm: #CAFF8A;
 
   
-  --white: #fff;
+  --white: rgb(216, 212, 212);
   --seaWhiteTransp: rgba(255, 255, 255, 0.774);
 
   --black: #000;
@@ -73,4 +65,18 @@
   100% {
     opacity: 0;
   }
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background: var(--wisteria);
+  font-family: sans-serif;
+  /* background: linear-gradient(to bottom, rgb(168, 100, 181) 45%, transparent); */
 }

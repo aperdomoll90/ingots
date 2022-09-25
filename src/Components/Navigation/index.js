@@ -4,7 +4,7 @@ function CircularNav() {
   return (
     <div className='NavContainer'>
       <div className='mainLogo'>
-        <span>css</span>forge
+        <span>css</span>ingots
       </div>
     </div>
   )
